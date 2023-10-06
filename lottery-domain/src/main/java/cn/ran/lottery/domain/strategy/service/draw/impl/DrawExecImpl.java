@@ -19,12 +19,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @param null
+ * @param 执行封装策略并封装结果显示
  * @author ran
  * @return null
- * @data 2023/10/6 13:17
+ * @data 2023/10/6 13:43
  */
-
 @Service("drawExec")
 public class DrawExecImpl extends DrawBase implements IDrawExec {
 
@@ -56,5 +55,6 @@ public class DrawExecImpl extends DrawBase implements IDrawExec {
 
         // 封装结果
         return new DrawResult(req.getuId(), req.getStrategyId(), awardId, award.getAwardName());
+
     }
 }

@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @param null
+ * @param 初始化并执行抽奖策略选择的模板
  * @author ran
  * @return null
  * @data 2023/10/6 12:50

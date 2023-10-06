@@ -7,7 +7,7 @@ import java.security.SecureRandom;
 import java.util.List;
 
 /**
- * @param null
+ * @param 推荐：单项随机概率抽奖，抽到一个已经排除掉得奖品则未中奖
  * @author ran
  * @return null
  * @data 2023/10/6 13:19

@@ -20,15 +20,15 @@ public class  StrategyRich {
     private Strategy strategy;
 
     // 策略明细
-    private List<StrategyDetail> strategyDetails;
+    private List<StrategyDetail> strategyDetailList;
 
     public StrategyRich() {
     }
 
-    public StrategyRich(Long strategyId, Strategy strategy, List<StrategyDetail> strategyDetails) {
+    public StrategyRich(Long strategyId, Strategy strategy, List<StrategyDetail> strategyDetailList) {
         this.strategyId = strategyId;
         this.strategy = strategy;
-        this.strategyDetails = strategyDetails;
+        this.strategyDetailList = strategyDetailList;
     }
 
     public Long getStrategyId() {
@@ -47,11 +47,11 @@ public class  StrategyRich {
         this.strategy = strategy;
     }
 
-    public List<StrategyDetail> getStrategyDetails() {
-        return strategyDetails;
+    public List<StrategyDetail> getStrategyDetailList() {
+        return strategyDetailList;
     }
 
-    public void setStrategyDetails(List<StrategyDetail> strategyDetails) {
-        this.strategyDetails = strategyDetails;
+    public void setStrategyDetailList(List<StrategyDetail> strategyDetailList) {
+        this.strategyDetailList = strategyDetailList;
     }
 }

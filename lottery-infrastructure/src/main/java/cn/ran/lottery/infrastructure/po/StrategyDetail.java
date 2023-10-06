@@ -23,14 +23,13 @@ public class StrategyDetail {
     private String awardCount;
 
     // 中奖概率
-    private BigDecimal awardRete;
+    private BigDecimal awardRate;
 
     // 创建时间
     private String createTime;
 
     // 修改时间
     private String updateTime;
-
 
     public String getId() {
         return id;
@@ -64,12 +63,12 @@ public class StrategyDetail {
         this.awardCount = awardCount;
     }
 
-    public BigDecimal getAwardRete() {
-        return awardRete;
+    public BigDecimal getAwardRate() {
+        return awardRate;
     }
 
-    public void setAwardRete(BigDecimal awardRete) {
-        this.awardRete = awardRete;
+    public void setAwardRate(BigDecimal awardRate) {
+        this.awardRate = awardRate;
     }
 
     public String getCreateTime() {
