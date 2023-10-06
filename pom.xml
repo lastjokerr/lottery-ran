@@ -19,10 +19,12 @@
         <module>lottery-common</module>
         <module>lottery-domain</module>
         <module>lottery-infrastructure</module>
+        <module>lottery-interfaces</module>
+        <module>lottery-rpc</module>
     </modules>
 
     <properties>
-        <java.version>1.8</java.version>
+        <jdk.version>1.8</jdk.version>
         <sourceEncoding>UTF-8</sourceEncoding>
     </properties>
 

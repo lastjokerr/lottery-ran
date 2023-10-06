@@ -5,7 +5,7 @@ package cn.ran.lottery.common;
  *  枚举信息定义
  * </p>
  *
- * @param 异常信息
+ * @param
  * @return 异常信息处理
  * @author: ran
  * @since: 2023/9/18 11:18

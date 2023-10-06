@@ -7,7 +7,7 @@ import java.io.Serializable;
  *  统一返回对象中，code码,info描述
  * </p>
  *
- * @param null
+ * @param
  * @return 结果集
  * @author: ran
  * @since: 2023/9/18 11:21
